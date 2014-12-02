@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include efpl-cf1 *.css
+recursive-include efpl-cf1 *.csv
+recursive-include efpl-cf1 *.html
+recursive-include efpl-cf1 *.ico
+recursive-include efpl-cf1 *.js
+recursive-include efpl-cf1 *.json
+recursive-include efpl-cf1 *.md
+recursive-include efpl-cf1 *.png
+recursive-include efpl-cf1 *.py
+recursive-include efpl-cf1 *.svg
+recursive-include efpl-cf1 *.txt
+recursive-exclude efpl-cf1 *.pyc
